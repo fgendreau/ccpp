@@ -143,7 +143,7 @@ function getopt_janitor(&$opts, $optstring) {
     return $opts;
 }
 
-require_once("yy/installer/CCPP.class.php");
+require_once("CCPP.class.php");
 function CCPP_Usage() {
     global $argv;
     echo "{$argv[0]} -cOo filename input_file\n\n".
